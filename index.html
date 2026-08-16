@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NeuroX YT 1.2 — Lightweight Video for Every Device</title>
+    <meta
+      name="description"
+      content="Download NeuroX YT 1.2 for Android — a fast, lightweight YouTube-style video app designed for low-end devices."
+    />
+    <meta name="theme-color" content="#08080a" />
+    <meta name="author" content="NeuroX YT" />
+    <meta
+      name="keywords"
+      content="NeuroX YT, NeuroX YT 1.2, lightweight video app, YouTube alternative, Android video app, low-end devices"
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="NeuroX YT" />
+    <meta property="og:title" content="NeuroX YT 1.2 — Lightweight Video for Every Device" />
+    <meta
+      property="og:description"
+      content="Download NeuroX YT 1.2 for Android — a fast, lightweight YouTube-style video app designed for low-end devices."
+    />
+    <meta property="og:image" content="/og-image.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="NeuroX YT 1.2 — Lightweight Video for Every Device" />
+    <meta
+      name="twitter:description"
+      content="Download NeuroX YT 1.2 for Android — a fast, lightweight YouTube-style video app designed for low-end devices."
+    />
+    <meta name="twitter:image" content="/og-image.jpg" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/favicon.png" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "NeuroX YT",
+        "applicationCategory": "EntertainmentApplication",
+        "operatingSystem": "Android",
+        "softwareVersion": "1.2",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "description": "Download NeuroX YT 1.2 for Android — a fast, lightweight YouTube-style video app designed for low-end devices."
+      }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("neuroxyt-theme") || "system";
+          var dark =
+            t === "dark" ||
+            (t === "system" && window.matchMedia("(prefers-color-scheme: dark)").matches);
+          if (dark) document.documentElement.classList.add("dark");
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
