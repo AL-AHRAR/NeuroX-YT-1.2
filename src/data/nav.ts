@@ -7,6 +7,7 @@ export type NavItem = {
 export const mainNav: NavItem[] = [
   { label: "Home", href: "/", section: "top" },
   { label: "Features", href: "/", section: "features" },
+  { label: "Categories", href: "/categories" },
   { label: "Download", href: "/download" },
   { label: "About NeuroX YT", href: "/about" },
   { label: "FAQ", href: "/faq" },
@@ -15,6 +16,7 @@ export const mainNav: NavItem[] = [
 export const footerNav = {
   product: [
     { label: "Features", href: "/", section: "features" },
+    { label: "Categories", href: "/categories" },
     { label: "Download", href: "/download" },
     { label: "Updates", href: "/changelog" },
   ],

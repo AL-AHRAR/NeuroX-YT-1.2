@@ -7,7 +7,10 @@ export function NotFound() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    setPageMeta("Page not found — NeuroX YT", "The page you’re looking for doesn’t exist.");
+    setPageMeta(
+      "Page Not Found — NeuroX YT Video Platform",
+      "The page you're looking for doesn't exist. Head back to NeuroX YT and continue watching videos online free.",
+    );
   }, []);
 
   return (

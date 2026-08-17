@@ -21,8 +21,8 @@ const principles = [
 export function About() {
   useEffect(() => {
     setPageMeta(
-      "About NeuroX YT — The story behind 1.2",
-      "NeuroX YT is a lightweight video app for Android, built for speed, privacy, and low-end devices.",
+      "About NeuroX YT — The Lightweight Video Platform Story",
+      "NeuroX YT is a free video platform and YouTube alternative built for low-end Android devices. Fast video streaming, video sharing platform, watch videos online free.",
     );
   }, []);
 
@@ -47,6 +47,8 @@ export function About() {
           <img
             src={images.orb}
             alt="A glass orb filled with indigo and cyan light, representing NeuroX YT"
+            loading="lazy"
+            decoding="async"
             className="h-72 w-full rounded-[28px] object-cover shadow-[var(--shadow-lg)] sm:h-96"
           />
         </ScrollReveal>

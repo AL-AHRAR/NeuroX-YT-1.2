@@ -7,9 +7,17 @@ type MockupFrameProps = {
   alt?: string;
   className?: string;
   glow?: boolean;
+  loading?: "lazy" | "eager";
 };
 
-export function MockupFrame({ children, src, alt, className, glow = true }: MockupFrameProps) {
+export function MockupFrame({
+  children,
+  src,
+  alt,
+  className,
+  glow = true,
+  loading = "lazy",
+}: MockupFrameProps) {
   return (
     <div className={cn("relative", className)}>
       {glow && (
@@ -28,7 +36,13 @@ export function MockupFrame({ children, src, alt, className, glow = true }: Mock
           </span>
         </div>
         {src ? (
-          <img src={src} alt={alt ?? "NeuroX YT interface"} className="block w-full object-cover object-top" />
+          <img
+            src={src}
+            alt={alt ?? "NeuroX YT interface"}
+            loading={loading}
+            decoding="async"
+            className="block w-full object-cover object-top"
+          />
         ) : (
           children
         )}

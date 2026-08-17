@@ -13,8 +13,8 @@ export function DownloadPage() {
 
   useEffect(() => {
     setPageMeta(
-      "Download NeuroX YT 1.2 — Official Android APK",
-      "Download the latest version of NeuroX YT 1.2 for Android. Fast setup, lightweight video app.",
+      "Download NeuroX YT 1.2 APK — Free Video Platform for Android",
+      "Download NeuroX YT 1.2 APK free — the lightweight video platform for Android. Watch videos online, fast video streaming on low-end devices. Free video platform, YouTube alternative.",
     );
   }, []);
 

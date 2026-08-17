@@ -7,8 +7,8 @@ import { setPageMeta } from "../utils/seo";
 export function FAQPage() {
   useEffect(() => {
     setPageMeta(
-      "NeuroX YT FAQ — Answers about NeuroX YT 1.2",
-      "Find answers about NeuroX YT 1.2, installation, platforms, privacy, and updates.",
+      "NeuroX YT FAQ — Free Video Platform Questions Answered",
+      "Answers about NeuroX YT — the lightweight video platform. Installation, Android requirements, privacy, updates, and how to watch videos online free.",
     );
   }, []);
 

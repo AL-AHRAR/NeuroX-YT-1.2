@@ -53,4 +53,22 @@ export const faqs: FAQItem[] = [
     answer:
       "NeuroX YT is designed local-first. Watch history and saved videos stay on your device. We do not sell data, and we do not track you across the web.",
   },
+  {
+    id: "ar-what",
+    question: "ما هو NeuroX YT؟",
+    answer:
+      "NeuroX YT هو منصة فيديو خفيفة وسريعة لمشاهدة الفيديوهات أونلاين مجاناً، مصممة خصيصاً للأجهزة الضعيفة. بديل يوتيوب مثالي ومنصة مشاركة الفيديو على أندرويد.",
+  },
+  {
+    id: "ar-install",
+    question: "كيف أقوم بتثبيت NeuroX YT؟",
+    answer:
+      "حمّل ملف APK من صفحة التحميل، ثم اسمح بالتثبيت من مصادر غير معروفة في إعدادات جهازك، وافتح الملف لتثبيت منصة الفيديو المجانية على جهازك في أقل من دقيقة.",
+  },
+  {
+    id: "ar-free",
+    question: "هل NeuroX YT مجاني؟",
+    answer:
+      "نعم، NeuroX YT منصة فيديو مجانية بالكامل لمشاهدة الفيديوهات أونلاين بدون إعلانات مزعجة، مع بث فيديو سريع حتى على الأجهزة الضعيفة.",
+  },
 ];

@@ -82,7 +82,7 @@ export function Hero() {
         >
           <div className="animate-float [perspective:2000px]">
             <div className="origin-center [transform:rotateX(10deg)]">
-              <MockupFrame src={images.dashboard} alt="NeuroX YT 1.2 home screen" />
+              <MockupFrame src={images.dashboard} alt="NeuroX YT 1.2 home screen" loading="eager" />
             </div>
           </div>
           <div className="pointer-events-none absolute inset-x-8 -bottom-6 h-24 rounded-[50%] bg-black/20 blur-2xl dark:bg-black/50" />

@@ -14,9 +14,9 @@ export const product = {
   releaseDate: "August 16, 2026",
   releaseLabel: "Latest",
   checksum: "SHA-256 · 9cb5…c35",
-  seoTitle: "NeuroX YT 1.2 — Lightweight Video for Every Device",
+  seoTitle: "NeuroX YT 1.2 — Free Lightweight Video Platform | YouTube Alternative",
   seoDescription:
-    "Download NeuroX YT 1.2 for Android — a fast, lightweight YouTube-style video app designed for low-end devices.",
+    "Watch videos online free with NeuroX YT — the lightweight video platform and YouTube alternative for low-end Android devices. Fast video streaming, video sharing platform, watch videos online without lag.",
 };
 
 export const systemRequirements = [

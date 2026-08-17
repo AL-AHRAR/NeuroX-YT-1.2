@@ -7,8 +7,8 @@ import { cn } from "../utils/cn";
 export function ChangelogPage() {
   useEffect(() => {
     setPageMeta(
-      "What’s new in NeuroX YT 1.2 — Changelog",
-      "See what’s new in NeuroX YT 1.2: improved UI, faster performance, better stability, and a refined watching experience.",
+      "What's New in NeuroX YT 1.2 — Changelog & Updates",
+      "See what's new in NeuroX YT 1.2 — the free video platform and YouTube alternative. Faster performance, better stability, and a refined watching experience.",
     );
   }, []);
 
